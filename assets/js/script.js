@@ -210,7 +210,7 @@ $("#task-form-modal")
   });
 
 // save button in modal was clicked
-$("#task-form-modal .btn-primary")
+$("#task-form-modal .btn-save")
   .click(function() {
     // get form values
     var taskText = $("#modalTaskDescription")
